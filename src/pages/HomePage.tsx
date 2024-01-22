@@ -1,5 +1,6 @@
 import Profile from '../components/Profile'
 import AchievementsList from '../components/Achivements'
+import Education from '../components/Educations';
 
 
 function HomePage() {
@@ -20,13 +21,16 @@ function HomePage() {
         <div className='bg-blue-50 w-full'>
             <Profile />
 
-            <h1 className="text-5xl mb-2 font-bold text-center">Achievements</h1>
+            <h1 className="text-5xl mb-10 font-bold text-center">Achievements</h1>
             <div className="mb-4 p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 {elonMuskAchievements.map((achievement, index) => (
                     <AchievementsList key={index} achievement={achievement} />
                 ))}
             </div>
 
+            <h1 className="text-5xl mb-10 font-bold text-center">Education</h1>
+
+            <Education />
         </div>
     )
 }

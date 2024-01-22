@@ -5,7 +5,7 @@ const Profile = () => {
                 <div className="w-full">
                     <section className="py-8">
                         <div className="container mx-auto flex items-center">
-                            <div className="flex-1">
+                            <div className="flex-1 p-4">
                                 {/* Left side (picture) */}
                                 <img
                                     src="https://images2.alphacoders.com/123/1233878.jpg"
@@ -30,7 +30,7 @@ const Profile = () => {
                                     <div className="flex space-x-2">
                                         <a href="https://twitter.com/elonmusk" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Twitter</a>
                                         <a href="https://www.instagram.com/elonmusk/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Instagram</a>
-                                        <a href="https://www.linkedin.com/in/elonmusk/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
+                                        <a href="https://www.linkedin.com/company/spacex/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
                                     </div>
                                 </div>
 
