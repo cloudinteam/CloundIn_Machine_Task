@@ -1,6 +1,7 @@
 import Profile from '../components/Profile'
 import AchievementsList from '../components/Achivements'
 import Education from '../components/Educations';
+import Footer from '../components/Footer';
 
 
 function HomePage() {
@@ -31,6 +32,9 @@ function HomePage() {
             <h1 className="text-5xl mb-10 font-bold text-center">Education</h1>
 
             <Education />
+            <div className='mt-10'>
+                <Footer />
+            </div>
         </div>
     )
 }
